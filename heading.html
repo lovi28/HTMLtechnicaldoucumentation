@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>HTML Documentation</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Technical Documentation</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <p style="font-size: 20px;text-align: center;">HTML</p>
+                <li >
+                    <a href="index.html">Introduction</a>
+                    
+                </li>
+                 <li>
+                    <a href="structure.html">Structure</a>
+                </li>
+                <li class="active">
+                    <a href="heading.html">Heading</a>
+                </li>
+    
+                <li>
+                    <a href="Paragraph.html">Paragraph</a>
+                </li>
+                <li>
+                    <a href="formatting.html">HTML formatting</a>
+                </li>
+                <li>
+                    <a href="Image.html">Images</a>
+                </li>
+                <li>
+                    <a href="tables.html">Tables</a>
+                </li>
+                <li>
+                    <a href="list.html">List</a>
+                </li>
+            </ul>
+<p style="font-family: ">&#169; Lovish</p>
+            
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        
+                   <i class="fas fa-align-justify"></i>
+                      <span></span>
+                    </button>
+                    
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        
+                    </div>
+                </div>
+            </nav>
+
+          
+
+
+
+<h2>HTML Headings</h2>
+<br>
+<p >HTML headings are titles or subtitles that you want to display on a webpage. </p>
+
+<p>HTML headings are defined with the <code>< h1 ></code> to  <code> < h6 ></code> tags. </p>
+
+ <p><code>< h1 ></code> defines the most important heading. <code>< h6 ></code> defines the least important heading.</p>
+ 
+<p><code class="w3-codespan">&lt;h1&gt;</code> defines the most important heading. <code class="w3-codespan">&lt;h6&gt;</code> defines the least important heading.</p>
+<hr>
+<div>
+<h3>Example</h3>
+<p><code>&lt;h1&gt; </code>Heading 1 <code>&lt;/h1&gt;</code> </p>
+<p><code>&lt;h2&gt; </code>Heading 2 <code>&lt;/h2&gt;</code> </p>
+<p><code>&lt;h3&gt; </code>Heading 3 <code>&lt;/h3&gt;</code> </p>
+<p><code>&lt;h4&gt; </code>Heading 4 <code>&lt;/h4&gt;</code> </p>
+<p><code>&lt;h5&gt; </code>Heading 5 <code>&lt;/h5&gt;</code> </p>
+<p><code>&lt;h6&gt; </code>Heading 6 <code>&lt;/h6&gt;</code> </p>
+    <h3>Output:</h3>
+<div class="output">   
+   <p> 
+<h1>Heading 1</h1>
+<h2 style="text-align:left">Heading 2</h2>
+<h3 style="margin-left: 0px;">Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6></p>
+</div>
+</div>
+
+<div class="line"></div>
+<h3>Headings Are Important</h3>
+<br>
+<p>Search engines use the headings to index the structure and content of your web pages.</p>
+<p>Users often skim a page by its headings. It is important to use headings to show the document structure.</p>
+<p><code >&lt;h1&gt;</code> headings should be used for main headings, followed by <code>&lt;h2&gt;</code> headings, then the less important 
+<code>&lt;h3&gt;</code>, and so on.</p>
+<div>
+  <p><strong>Note:</strong> Use HTML headings for headings only. Don't use headings to make text 
+  <strong>BIG</strong> or <strong>bold</strong>.</p>
+</div>
+<hr>
+<div class="line"></div>
+
+                    <button type="button"  class="btn btn-info" style="float:left;">
+                        <a href="structure.html">Previous</a>
+                   
+                    </button>
+                    <button type="button"  class="btn btn-info" style="float:right;">
+                        <a href="Paragraph.html"> Next</a>
+                   
+                    </button>
+
+
+
+
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar, #content').toggleClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    </script>
+</body>
+
+</html>

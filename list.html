@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+    
+
+}
+</style>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>HTML Documentation</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Technical Documentation</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <p style="font-size: 20px;text-align: center;">HTML</p>
+                <li >
+                    <a href="index.html">Introduction</a>
+                    
+                </li>
+                 <li>
+                    <a href="structure.html">Structure</a>
+                </li>
+                <li>
+                    <a href="heading.html">Heading</a>
+                </li>
+    
+                <li>
+                    <a href="Paragraph.html">Paragraph</a>
+                </li>
+                <li>
+                    <a href="formatting.html">HTML formatting</a>
+                </li>
+                <li>
+                    <a href="Image.html">Images</a>
+                </li>
+                <li>
+                    <a href="tables.html">Tables</a>
+                </li>
+                <li class="active">
+                    <a href="list.html">List</a>
+                </li>
+            </ul>
+
+    <p style="font-family: ">&#169; Lovish</p>
+                    </nav>
+
+    <!-- Page Content  -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        
+                   <i class="fas fa-align-justify"></i>
+                      <span></span>
+                    </button>
+                    
+                       
+                    
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        
+                    </div>
+                </div>
+            </nav>
+
+
+<h2> HTML List</h2>    
+<br>      
+<p>HTML lists allow web developers to group a set of related items in lists. HTML Lists are used to specify lists of information. All lists may contain one or more list elements.</p> 
+<p>  There are three different types of HTML lists:<p>
+
+<p>1.Ordered List or Numbered List (ol)</p>
+<p>2.Unordered List or Bulleted List (ul)</p>
+<p>3.Description List or Definition List (dl)</p>
+
+<div class="line"></div>
+<h2>Unordered HTML List</h2> 
+<br>
+<p>An unordered list starts with the <code>&lt;ul&gt;</code> tag. Each list item starts with the 
+<code>&lt;li&gt;</code> tag.</p>
+<p>The list items will be marked with bullets (small black circles) by default:</p>
+<div>
+<h3>Example</h3>
+<p>
+ <code>&lt;ul&gt; </code><br>&nbsp;
+ <code>&lt;li&gt; </code>Coffee <code>&lt;/li&gt; </code><br>&nbsp;
+ <code>&lt;li&gt; </code>Tea <code>&lt;/li&gt; </code><br>&nbsp;
+ <code>&lt;li&gt; </code>Milk <code>&lt;/li&gt; </code><br>
+ <code>&lt;/ul&gt; </code> 
+ <p>
+ </div>
+ <h3>Output:</h3> 
+<br>
+<div class="output">   
+<p class="outpara"> <ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul> </p>
+</div>
+
+<div class="line"></div>
+<h2>Ordered HTML List</h2> <br>
+<p>An ordered list starts with the <code>&lt;ol&gt;</code> tag. Each list item starts with the <code>&lt;li&gt;</code> tag.</p>
+<p>The list items will be marked with numbers by default:</p>
+<div>
+<h3>Example</h3>
+<p>
+<code>&lt;ol&gt;</code><br>&nbsp;
+<code>&lt;li&gt;</code>HTML<code>&lt;/li&gt;</code><br>&nbsp;
+<code>&lt;li&gt;</code>CSS<code>&lt;/li&gt;</code><br>&nbsp;
+<code>&lt;li&gt;</code>Javascript<code>&lt;/li&gt;</code><br>
+<code>&lt;/ol&gt;</code>
+</p>
+</div>
+
+<h3>Output:</h3> 
+<br>
+<div class="output">   
+<p class="outpara"> <ol>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>Javascript</li>
+</ol> </p>
+</div>
+
+<div class="line"></div>
+
+<h2>HTML Description Lists</h2>
+<p>HTML also supports description lists.</p>
+<p>A description list is a list of terms, with a description of each term.</p>
+<p>The <code>&lt;dl&gt;</code> tag defines the description list, the <code>&lt;dt&gt;</code> tag defines the term (name), and the <code>&lt;dd&gt;</code>  tag describes each term:</p>
+<div>
+
+<h3>Example</h3>
+<div>
+ <p>   
+<code>&lt;dl&gt;</code><br>&nbsp;
+<code>&lt;dt&gt;</code>HTML<code>&lt;/dt&gt;</code><br>&nbsp;
+<code>&lt;dd&gt;</code>This stands for Hyper Text Markup Language<<code>&lt;/dd&gt;</code><br>&nbsp;
+<code>&lt;dt&gt;</code>HTTP<code>&lt;/dt&gt;</code><br>&nbsp;
+<code>&lt;dd&gt;</code> This stands for Hyper Text Transfer Protocol<code>&lt;/dd&gt;</code><br>
+<code>&lt;/dl&gt;</code></p>
+</div>
+<h3>Output:</h3> 
+<br>
+<div class="output">   
+<p class="outpara"><dl>
+  <dt><b>HTML</b></dt>  
+  <dd>This stands for Hyper Text Markup Language</dd>  
+  <dt><b>HTTP</b></dt>
+  <dd>This stands for Hyper Text Transfer Protocol</dd>  
+ </dl></p>
+</div>
+
+
+<div class="line"></div>
+
+                    <button type="button"  class="btn btn-info" style="float:left;">
+                        <a href="tables.html">Previous</a>
+                   
+                    </button>
+                    
+
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar, #content').toggleClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    </script>
+</body>
+
+</html>

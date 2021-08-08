@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>HTML Documentation</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Technical Documentation</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <p style="font-size: 20px;text-align: center;">HTML</p>
+                <li >
+                    <a href="index.html">Introduction</a>
+                    
+                </li>
+                 <li>
+                    <a href="structure.html">Structure</a>
+                </li>
+                <li>
+                    <a href="heading.html">Heading</a>
+                </li>
+                
+                <li class="active">
+                    <a href="Paragraph.html">Paragraph</a>
+                </li>
+                <li>
+                    <a href="formatting.html">HTML formatting</a>
+                </li>
+                <li>
+                    <a href="Image.html">Images</a>
+                </li>
+                <li>
+                    <a href="tables.html">Tables</a>
+                </li>
+                <li>
+                    <a href="list.html">List</a>
+                </li>
+            </ul>
+<p style="font-family: ">&#169; Lovish</p>
+            
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        
+                   <i class="fas fa-align-justify"></i>
+                      <span></span>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        
+                    </div>
+                </div>
+            </nav>
+
+<h2>HTML Paragraphs</h2> 
+<p >A paragraph always starts on a new line, and is usually a block of text.</p>
+<p>The HTML <code>&lt;p&gt;</code> element defines a paragraph.</p>
+<p>A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.</p>
+<h3>Example</h3>
+<div>
+<p><code>&lt;p&gt;</code>This is a paragraph.<code>&lt;/p&gt;</code></p>
+<p><code>&lt;p&gt;</code>This is a  another paragraph.<code>&lt;/p&gt;</code></p>
+
+
+</div>
+<br>
+<h3>Output:</h3>
+<div class="output">   
+<p class="outpara">This is a paragraph. </p>
+<p class="outpara">This is another paragraph.</p>
+</div>
+<br>
+<p>You cannot be sure how HTML will be displayed.</p>
+<p>Large or small screens, and resized windows will create different results. </p>
+<p>With HTML, you cannot change the display by adding extra spaces or extra lines in your HTML code.</p>
+<p>The browser will automatically remove any extra spaces and lines when the page is 
+displayed:</p>
+<br><hr>
+<br>
+<br>
+<h2>Solution - The HTML &lt;pre&gt; Element</h2>
+<p>The HTML <code class="w3-codespan">&lt;pre&gt;</code> element defines preformatted text.</p>
+<p>The text inside a <code class="w3-codespan">&lt;pre&gt;</code> element is displayed in a fixed-width font (usually 
+Courier), and it preserves both spaces and line breaks:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div>
+ <pre><code style="color:#e83e8c">&lt;pre&gt;</code>&nbsp;
+        This text is
+               in a fixed-pitch
+                     font, and it preserves
+                                 both    spaces and line breaks&nbsp;
+      <code code style="color:#e83e8c">&lt;/pre&gt;</code></pre> </div>
+
+<br>
+<h3>Output:</h3>
+<div class="output">   
+<pre id="pre">
+       This text is
+             in a fixed-pitch
+                    font, and it preserves
+                                both    spaces and line breaks
+      </pre>
+</div>
+
+
+<hr>
+<hr>
+<h2>HTML Horizontal Rules</h2>
+<p>The <code class="w3-codespan">&lt;hr&gt;</code> tag defines a thematic break in an HTML page, and is most often 
+displayed as a horizontal rule.</p>
+<p>The <code class="w3-codespan">&lt;hr&gt;</code> element is used to separate content (or define a change) in an HTML 
+page:</p>
+<p>The <code class="w3-codespan">&lt;hr&gt;</code> tag is an empty tag, which means that it has no end tag.</p>
+<div class="w3-example">
+<h3>Example</h3>
+<p><code>&lt;p&gt;</code>This is a paragraph.<code>&lt;/p&gt;</code></p>
+<p><code>&lt;hr&gt;</code><p>
+<p><code>&lt;p&gt;</code>This is a  another paragraph.<code>&lt;/p&gt;</code></p>
+
+<br>
+<h3>Output:</h3>
+<div class="output">   
+<p class="outpara">This is a paragraph. </p>
+<hr id="hrmain">
+<p class="outpara">This is another paragraph.</p>
+</div>
+<br>
+<div class="line"></div>
+
+                    <button type="button"  class="btn btn-info" style="float:left;">
+                        <a href="heading.html">Previous</a>
+                   
+                    </button>
+                    <button type="button"  class="btn btn-info" style="float:right;">
+                        <a href="formatting.html"> Next</a>
+                   
+                    </button>
+
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar, #content').toggleClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    </script>
+</body>
+
+</html>

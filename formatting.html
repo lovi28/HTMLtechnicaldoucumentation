@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>HTML Documentation</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+         <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Technical Documentation</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <p style="font-size: 20px;text-align: center;">HTML</p>
+                <li>
+                    <a href="index.html">Introduction</a>
+                    
+                </li>
+                 <li>
+                    <a href="structure.html">Structure</a>
+                </li>
+                <li>
+                    <a href="heading.html">Heading</a>
+                </li>
+                
+                <li>
+                    <a href="Paragraph.html">Paragraph</a>
+                </li>
+                <li class="active">
+                    <a href="formatting.html">HTML formatting</a>
+                </li>
+                <li>
+                    <a href="Image.html">Images</a>
+                </li>
+                <li>
+                    <a href="tables.html">Tables</a>
+                </li>
+                <li>
+                    <a href="list.html">List</a>
+                </li>
+            </ul>
+
+            <p style="font-family: ">&#169; Lovish</p>
+
+            
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        
+                   <i class="fas fa-align-justify"></i>
+                      <span></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        
+                    </div>
+                </div>
+            </nav>
+
+
+
+      <div id="mainLeaderboard" style="overflow:hidden;">
+       
+<h2>HTML Formatting Elements</h2>
+
+<p>Formatting elements were designed to display special types of text:</p>
+<ul>
+ <li><code class="w3-codespan">&lt;b&gt;</code> - Bold text</li>
+ <li><code class="w3-codespan">&lt;strong&gt;</code> - Important text</li>
+ <li><code class="w3-codespan">&lt;i&gt;</code> - Italic text</li>
+ <li><code class="w3-codespan">&lt;em&gt;</code> - Emphasized text</li>
+ <li><code class="w3-codespan">&lt;mark&gt;</code> - Marked text</li>
+ <li><code class="w3-codespan">&lt;small&gt;</code> - Smaller text</li>
+ <li><code class="w3-codespan">&lt;del&gt;</code> - Deleted text</li>
+ <li><code class="w3-codespan">&lt;ins&gt;</code> - Inserted text</li>
+ <li><code class="w3-codespan">&lt;sub&gt;</code> - Subscript text</li>
+ <li><code class="w3-codespan">&lt;sup&gt;</code> - Superscript text</li>
+</ul>
+<hr>
+
+<h2>HTML &lt;b&gt; and &lt;strong&gt; Elements</h2>
+<p>The HTML <code>&lt;b&gt;</code> element defines bold text, 
+without any extra importance.</p>
+<div>
+<h3>Example</h3>
+<div>
+  <p> <code> &lt;b&gt;</code>This text is bold<code>&lt;b&gt;</code></div> </p>
+<h3>Output:</h3> 
+<br>
+<div class="output">   
+<p class="outpara"> <b>This text is bold</b> </p>
+</div>
+<br>
+<hr>
+<br>
+
+<p>The HTML <code>&lt;strong&gt;</code> element defines text 
+with strong importance. The content inside is typically displayed in bold.</p>
+<div>
+<h3>Example</h3>
+ <div>
+<p><code> &lt;strong&gt;</code>This text is important!<code>&lt;/strong&gt;</code>  </p></div>
+
+</div>
+
+<h3>Output:</h3>
+<div class="output">   
+<p class="outpara">This text is normal.</p>
+<p class="outpara"><strong>This text is important!</strong></p>
+</div>
+
+<br>
+<hr><br>
+<h2>HTML &lt;i&gt; and &lt;em&gt; Elements</h2>
+<br>
+<p>The HTML <code >&lt;i&gt;</code> element defines a part of text in an alternate voice or mood. The content inside is typically displayed in italic.</p>
+<p><strong>Tip:</strong> The <code>&lt;i&gt;</code> tag is often used to indicate a technical term, a phrase from another language, a thought, a ship name, etc.</p>
+<div>
+<h3>Example</h3>
+<div> <p><code>  &lt;i&gt;</code>This text is italic<code>&lt;/i&gt;</code>  <p></div>
+</div>
+<br>
+<h3>Output:</h3><br>
+<div class="output">   
+<p class="outpara"><i>This text is italic.</i></p>
+</div>
+<br><br>
+<p>The HTML <code >&lt;em&gt;</code> element defines emphasized text. The content inside is typically displayed in italic.</p>
+<p><strong>Tip:</strong> A screen reader will pronounce the words in <code>&lt;em&gt;</code> with an emphasis, using verbal stress.</p>
+<div>
+<h3>Example</h3>
+<div>
+  <p><code> &lt;em&gt;</code>This text is emphasized<code>&lt;em&gt;</code> <p> </div>
+</div>
+<hr>
+<h3>Output:</h3> <br>
+<div class="output">   
+<p class="outpara"><em>This text is emphasized.</em></p>
+</div>
+<br> 
+<hr>
+<br>
+
+<h2>HTML &lt;mark&gt; Element</h2>
+<p>The HTML <code>&lt;mark&gt;</code> element defines text that should be marked or highlighted:</p>
+<div>
+<h3>Example</h3>
+<div>
+  <p><code>&lt;p&gt;</code>Do not forget to buy<code> &lt;mark&gt;</code>milk<code>&lt;/mark&gt;</code> today.<code>&lt;p&gt;</code> </p><br>
+ </div>
+</div>
+<h3>Output:</h3> <br>
+<div class="output">   
+<p class="outpara">Do not forget to buy <mark>milk</mark> today.</p>
+</div>
+<div class="line"></div>
+
+<h2>HTML &lt;sub&gt; Element</h2>
+<br>
+<p>The HTML <code>&lt;sub&gt;</code> element defines subscript text. Subscript text appears half a character below the normal line, and is  sometimes rendered in a smaller font. Subscript text can be used for 
+chemical formulas, like H<sub>2</sub>O:</p>
+<div class="w3-example">
+<h3>Example</h3>
+  <p><code>  &lt;p&gt;</code>This is<code>&lt;sub&gt;</code>subscripted<code>&lt;/sub&gt;</code> text.<code>&lt;/p&gt;</code><br> </p>
+ </div>
+<h3>Output:</h3> <br>
+<div class="output">   
+<p class="outpara">This is <sub>subscripted</sub> text.</p>
+</div>
+<hr>
+<div class="line"></div>
+
+<h2>HTML &lt;sup&gt; Element</h2>
+<br>
+<p>The HTML <code>&lt;sup&gt;</code> element defines superscript text. Superscript text appears half a character above the normal 
+line, and is sometimes rendered in a smaller font. Superscript text can be used for footnotes, like WWW<sup>[1]</sup>:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div >
+ <p><code>&lt;p&gt;</code>This is <code>&lt;sup&gt;</code>superscripted<code>&lt;/sup&gt;</code>text.<code>&lt;/p&gt;</code> </p><br>
+ </div>
+ <h3>Output:</h3> <br>
+<div class="output">   
+<p class="outpara">This is <sup>superscripted</sup> text.</p>
+</div>
+
+<div class="line"></div>
+
+                    <button type="button"  class="btn btn-info" style="float:left;">
+                        <a href="Paragraph.html">Previous</a>
+                   
+                    </button>
+                    <button type="button"  class="btn btn-info" style="float:right;">
+                        <a href="image.html"> Next</a>
+                   
+                    </button>
+
+
+
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar, #content').toggleClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    </script>
+</body>
+
+</html>
